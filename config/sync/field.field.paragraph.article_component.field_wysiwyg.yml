@@ -1,0 +1,21 @@
+uuid: 1f2d58c5-9d0e-49ac-8745-0ba284128d84
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_wysiwyg
+    - paragraphs.paragraphs_type.article_component
+  module:
+    - text
+id: paragraph.article_component.field_wysiwyg
+field_name: field_wysiwyg
+entity_type: paragraph
+bundle: article_component
+label: WYSIWYG
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
